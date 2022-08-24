@@ -41,9 +41,11 @@ Use -r to scan the Virtual Memory of every new process that spawns in usermode.
 
 To use -r mode, you need to start watcher.py (CLI: python watcher.py) before.
 
+
 B-   -p/--pid= 
 
 Use -p to scan the Virtual Memory of a specific Process instead of every new process.
+
 
 C-   -s/--string=
 
@@ -54,6 +56,7 @@ The tool will automatically convert your string to suit both Endianess states.
 If the string has backspaces, please input it inside quotation marks.
 "string with space"
 
+
 D-   -d/--database=
 
 Use -d to scan the Virtual Memory for a sequence of strings.
@@ -62,9 +65,15 @@ The tool will automatically convert all strings to suit both Endianess states.
 
 -d input value is a txt or non-filetype archive with all desired strings.
 
-The syntax is simple, it only requires a comma after each string.
+The syntax is simple: one string in each line
 
-string1, string2 , string3 ,
+string1
+
+string2
+
+string3
+
+
 
 --------------------------------------------------------------------------------
 [3] Engine
@@ -129,3 +138,5 @@ Countering bypass is always a thing, but apart from that:
 [1] Verbose       (easy)
 
 [2] Rule Creation (easy)
+
+
