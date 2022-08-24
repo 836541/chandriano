@@ -21,6 +21,8 @@ Use -p to scan the Virtual Memory of a specific Process instead of every new pro
 C-   -s/--string=
 Use -s to scan the Virtual Memory for a specific string. 
 The tool will automatically convert your string to suit both Endianess states.
+If the string has backspaces, please input it inside quotation marks.
+"string with space"
 
 D-   -d/--database=
 Use -d to scan the Virtual Memory for a sequence of strings.
