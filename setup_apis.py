@@ -2,8 +2,8 @@ from ctypes import *
 from ctypes import wintypes
 
 ######################################################################################################
-# Não há script aqui, é um arquivo feito para ser importado pelo Memory Scanner.
-# Nesse arquivo há o setup de diversas APIs, estruturas de dados e variáveis DWORD utilizadas no Memory Scanner
+# SETUP FILE
+# File to setup win32 apis via ctypes
 ######################################################################################################
 
 #### SETUP das DLLs utilizadas
