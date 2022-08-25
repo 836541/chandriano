@@ -15,6 +15,8 @@ FEATURES IN DEVELOPMENT (OUT IN FOUR TO SEVEN DAYS):
 
 ° LOGGING RESULTS 
 
+° GETTING PID VIA KERNELSPACE INSTEAD OF USERSPACE + MONITORING API HOOKING TO COUNTER BYPASS (these features will take much longer to be implemented)
+
 -----------------------------------
 [0] Archives.
 -----------------------------------
