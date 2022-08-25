@@ -73,6 +73,8 @@ string2
 
 string3
 
+If you want to scan a string that has backspaces (like a shell command) and, in memory, has each piece of the string in a different location, then you may want to use the RULES argument and create a rule with "and" conditionais between each substring. Rules Argument WIP.
+
 
 
 --------------------------------------------------------------------------------
