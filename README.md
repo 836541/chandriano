@@ -2,18 +2,18 @@
 MemScanner for strings search in Virtual Memory. Live Protection, Input PID and On-Demand Scan Modes.
 
 ------------------------------------------------------------
-[IN PROGRESS]
+[IN PROGRESS] EVERYTHING WILL BE ADDED IN four to seven days.
 ------------------------------------------------------------
 
-° RULE CREATION will be added in one-two days.
+° RULE CREATION 
 
-° VERBOSE will be added in one-two days.
+° VERBOSE 
 
-° TERMINATE MALWARE option will be added in one-two days.
+° TERMINATE MALWARE
 
-° ON-DEMAND SCAN option will be added in one-two days.
+° ON-DEMAND SCAN 
 
-° LOGGING RESULTS option will be added in one-two days.
+° LOGGING RESULTS 
 
 -----------------------------------
 [0] Archives.
