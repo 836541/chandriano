@@ -2,7 +2,7 @@
 MemScanner for strings search in Virtual Memory. Live Protection, Input PID and On-Demand Scan Modes.
 
 ------------------------------------------------------------
-FEATURES IN DEVELOPMENT (OUT IN FOUR TO SEVEN DAYS):
+FEATURES IN DEVELOPMENT (ALL OUT UNTIL END OF SEPTEMBER
 ------------------------------------------------------------
 
 ° RULE CREATION 
@@ -14,6 +14,8 @@ FEATURES IN DEVELOPMENT (OUT IN FOUR TO SEVEN DAYS):
 ° ON-DEMAND SCAN 
 
 ° LOGGING RESULTS 
+
+° VIRTUALPROTECTEX
 
 ° GETTING PID VIA KERNELSPACE INSTEAD OF USERSPACE + MONITORING API HOOKING TO COUNTER BYPASS (these features will take much longer to be implemented)
 
