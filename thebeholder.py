@@ -7,6 +7,7 @@ from setup_apis import *
 from ctypes import *
 import optparse
 import re 
+import os
 
 
 def arguments():
@@ -59,7 +60,9 @@ def setDebugPriv():    # Getting Debug Privileges for Memory Reading
 
 def memscanner(pid, malware):          
 
-
+    if pid == os.getpid():
+        return False
+    
     setDebugPriv()  
 
     process = OpenProcess (PROCESS_VM_READ|PROCESS_QUERY_INFORMATION, False, pid)                        
@@ -106,7 +109,7 @@ def memscanner(pid, malware):
                                 
 
         Adress += mbi.RegionSize         
-
+  
     return result
 
 
