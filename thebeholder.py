@@ -1,4 +1,4 @@
-# /undead_warlock
+# /undeadwarlock
 # GPL3.0-or-foward
 
 from win32security import LookupPrivilegeValue, SE_DEBUG_NAME
