@@ -1,4 +1,4 @@
-# theBeholder
+# chandriano
 MemScanner for strings search in Virtual Memory. Live Protection, Input PID and On-Demand Scan Modes.
 
 ------------------------------------------------------------
@@ -22,7 +22,7 @@ FEATURES IN DEVELOPMENT (ALL OUT UNTIL END OF SEPTEMBER
 -----------------------------------
 [0] Archives.
 -----------------------------------
-theBeholder.py -> the tool itself.
+chandriano.py -> the tool itself.
 
 watcher.py     -> WMI process creation monitor to get all new pids in system. 
 
